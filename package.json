@@ -1,0 +1,19 @@
+{
+  "name": "news-app-backend",
+  "version": "1.0.0",
+  "description": "News REST API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start:prod": "node app.js"
+  },
+  "keywords": [],
+  "author": "Dusan Djordjic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
