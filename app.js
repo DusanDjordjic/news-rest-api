@@ -1,6 +1,6 @@
 const express = require("express");
 const newsRoutes = require("./routes/news");
-const errorController = require("./controllers/error");
+const errorController = require("./middleware/error");
 const app = express();
 
 app.use("/news", newsRoutes.router);
